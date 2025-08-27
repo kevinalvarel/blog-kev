@@ -1,3 +1,4 @@
+import { Toaster } from "sonner";
 import "../globals.css";
 import { Metadata } from "next";
 
@@ -11,5 +12,10 @@ export default function DashboardLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <main>{children}</main>;
+  return (
+    <main suppressHydrationWarning>
+      {children}
+      <Toaster position="top-right" />
+    </main>
+  );
 }

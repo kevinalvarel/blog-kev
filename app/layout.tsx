@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} antialiased`}>
+      <body className={`${poppins.className} antialiased bg-black/[0.96]`}>
         <main>{children}</main>
         <Toaster position="top-right" />
       </body>
