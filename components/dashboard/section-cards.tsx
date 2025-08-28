@@ -17,12 +17,12 @@ export function SectionCards() {
         <CardHeader>
           <CardDescription>Total Blog Posts</CardDescription>
           <CardTitle className="text-2xl font-semibold tabular-nums @[250px]/card:text-3xl">
-            127
+            1
           </CardTitle>
           <CardAction>
             <Badge variant="outline">
               <IconTrendingUp />
-              +8 this month
+              +1 this month
             </Badge>
           </CardAction>
         </CardHeader>

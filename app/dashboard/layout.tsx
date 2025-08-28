@@ -13,9 +13,13 @@ export default function DashboardLayout({
   children: React.ReactNode;
 }) {
   return (
-    <main suppressHydrationWarning>
-      {children}
-      <Toaster position="top-right" />
-    </main>
+    <html>
+      <body>
+        <main suppressHydrationWarning>
+          {children}
+          <Toaster position="top-right" />
+        </main>
+      </body>
+    </html>
   );
 }
