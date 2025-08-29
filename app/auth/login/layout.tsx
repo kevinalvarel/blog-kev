@@ -1,3 +1,4 @@
+import "../../globals.css";
 import React from "react";
 import { Toaster } from "sonner";
 
@@ -7,9 +8,13 @@ export default function LoginLayout({
   children: React.ReactNode;
 }) {
   return (
-    <main>
-      {children}
-      <Toaster position="top-right" />
-    </main>
+    <html>
+      <body>
+        <main>
+          {children}
+          <Toaster position="top-right" />
+        </main>
+      </body>
+    </html>
   );
 }

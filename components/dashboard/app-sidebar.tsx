@@ -6,6 +6,7 @@ import {
   IconDatabase,
   IconFileWord,
   IconFolder,
+  IconPencilBolt,
   IconReport,
   IconSettings,
 } from "@tabler/icons-react";
@@ -21,6 +22,11 @@ import {
 
 const data = {
   navMain: [
+    {
+      title: "Create Post",
+      url: "/dashboard/create-blog",
+      icon: IconPencilBolt,
+    },
     {
       title: "Dashboard",
       url: "#",
