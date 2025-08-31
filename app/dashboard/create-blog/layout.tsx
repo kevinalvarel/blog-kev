@@ -1,4 +1,5 @@
 import { Toaster } from "sonner";
+import "../../globals.css";
 
 export default function CreateBlogLayout({
   children,
